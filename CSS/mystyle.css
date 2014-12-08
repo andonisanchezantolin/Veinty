@@ -1,0 +1,270 @@
+/* MyStyle */
+
+@font-face {
+font-family: Myfont;
+src: url(myfont.ttf);
+}
+
+
+.mystyle {
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    background: #F7F7F7;
+    padding: 25px 10px 25px 10px;
+    font: 16px Myfont;
+    color: #5b5b5b;
+    text-shadow: 1px 1px 1px #FFF;
+}
+
+.mystyle h1 {
+    font-size: 40px;
+    padding: 10px 0 10px 0;
+    border-top:1px solid #E4E4E4;
+    border-bottom:1px solid #E4E4E4;
+    margin: 20px 0 20px 0;
+    color: #888;
+	text-align:center;
+}
+
+.mystyle p#message {
+	text-align:center;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px; 
+    color: #383d85;
+}
+
+.mystyle p#myname {
+    font-size: 22px;
+    color: #393f8e;
+    text-shadow: 1px 1px 1px #28378a;
+}
+
+.mystyle p#studentname {
+    font-size: 22px;
+    color: #393f8e;
+    text-shadow: 1px 1px 1px #6256a9;
+}
+
+.mystyle account{
+    color: #5285eb;
+    text-shadow: 0.2px 0.2px 0.2px #78798b;
+}
+
+.mystyle p1#menu{
+	text-align:left;
+}
+
+.mystyle p1#index{
+	text-align:right;
+}
+
+.mystyle p#errorfield{
+	text-align:center;
+    padding: 10px 10px 10px 10px; 
+    color: #ea0c22;
+}
+
+.mystyle p#expresionerror{
+    padding: 20px, 0 ,20px ,0;
+    color: #ea0c22;
+}
+
+.mystyle #loginerror{
+	padding: 20px 0 20px 0; 
+    color: #ea0c22;
+}
+
+.mystyle p#errorsql{
+    padding: 15px 0 15px 0; 
+    color: #ea0c22;
+}
+
+.mystyle p#errorupload{
+    padding: 20px 0 10px 0; 
+    color: #ea0c22;
+}
+
+.mystyle div#counter{
+    margin: 50px 0px 20px 0px;
+	text-align: center;
+}
+
+.mystyle div#addDiv{
+    margin: 20px 0px 20px 0px;
+	text-align: center;
+}
+
+.mystyle div#indexDiv{
+    margin: 0 30px 0 30px;   
+}
+
+.mystyle div#otherprofiles{
+	margin: 10%, 30%, 10%, 30%;
+	width: 100%;
+}
+
+.mystyle div#logoDiv{
+	width: 100%;	
+}
+
+.mystyle img#logo{
+	display:block;
+	margin:auto;
+	width: 70%
+}
+
+.mystyle img#profilepicture{
+	display:block;
+	margin:auto;
+	width: 30%;
+	max-width: 300px;
+}
+
+.mystyle ul{
+	list-style-type: none;
+    margin: 15px 25px 10px 25px;
+}
+
+.mystyle li{
+	padding: 15px 25px 10px 25px;
+	display: inline;
+	text-align: center;
+}
+
+.mystyle ul#student{
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 70%
+}
+
+.mystyle li#student{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 0 5px 0;
+}
+
+.mystyle ul#menulist{
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+
+.mystyle table{
+	width: 100%;
+    border: none;    
+}
+
+.mystyle table#signintable tr#signrow	{
+    border: none;
+    width: auto;
+    text-align: center;    
+}
+
+.mystyle table#logintable tr#loginrow	{
+    border: none;
+    width: auto;
+    text-align: centre;    
+}
+
+.mystyle div#wall{
+	width:100%;
+	
+}
+.mystyle div#othercommentsDiv{
+	display: block;
+	width: 90%;
+	margin: auto;
+	text-align: centre;
+}
+.mystyle table#commenttable{
+	border: 1px solid #717171;
+	margin: auto;
+	min-width:300px;
+}
+
+.mystyle p#commentposted, p#commentby{
+	weight: bold, 2px;
+	font: 17px myfont;
+}
+
+.mystyle p#commentdate, p#commentsender{
+	font: 14px myfont;
+}
+
+.mystyle p#comment{
+	text-align:left;
+	margin-left:20px;
+	margin-right: 20px;
+	color: #19357a;
+}
+
+.mystyle p#info{
+	font-size: 18px;
+	margin-up:30px;
+	margin-down: 10px;
+	margin-right: 4%;
+	color: #1f2036;
+}
+
+.mystyle p#autor{
+	margin-up:10px;
+	margin-down: 10px;
+	color: #2647ca;
+}
+
+.mystyle p#date{
+	margin-up:30px;
+	margin-down: 10px;
+	color: #505453;
+}
+
+.mystyle input[type="text"], .mystyle input[type="password"]{
+	font: 16px Myfont;
+    border: 1px solid #DADADA;
+    color: #141414;
+    height: 30px;
+    width: 70%;
+    min-width: 200px;
+    max-width: 300px;
+    outline: 0 none;  
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.mystyle textarea{
+	width: 70%;
+	font: 16px Myfont;
+}
+
+.mystyle input.placeholder{
+	margin: auto;
+}
+
+.mystyle input[type=button]{
+	font: 90% Myfont;
+	padding: 10px 25px 10px 25px;
+	width: auto;
+	border: none;
+	text-align: center;
+	
+}
+.mystyle .button {
+	cursor: pointer;
+    background: #4090d8;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #666b69;
+}
+
+.mystyle .button:hover {
+    background: #245896
+}
+
+
+
+
